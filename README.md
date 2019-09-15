@@ -6,4 +6,4 @@ Enter "apl" on command line, the graphic report will be generated on the directo
 
 Furthermore, you can enter "apl_dir" to generate all 1H and 13C spectrum on current directory automatically, it may take some time, don't close TopSpin until the software tell you "apl_dir.py: finished" on right-bottom.
 
-Currently, this project support 1H and 13C spectrum. For any question about the scripts, please feel free to let me know :)
+Currently, this project support 1H and 13C spectrum. Scripts are writen and tested under Python3.6 (It should be work on other Python3 version), and run under TopSpin3.5 and 4.0 (It should be work on other version). For any question about the scripts, please feel free to let me know :)
