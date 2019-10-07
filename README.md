@@ -1,9 +1,12 @@
-This project include two python scripts and two TopSpin layouts. To use them, you have to download and put the scripts into "(...TopSpin_DIR)\exp\stan\nmr\py\user". And put the layout files into "(...TopSpin_DIR)\plot\layouts". You can also create your own layout, and change their name as "H.xwp" and "C.xwp".
+This project include python scripts and TopSpin layouts for graphic report. For python script, please download and put them into "(...TopSpin_DIR)\exp\stan\nmr\py\user". For layout files, please download and put them into "(...TopSpin_DIR)\plot\layouts". You can also create your own layout, and change their name as "H.xwp" and "C.xwp".
 
-Open your spectrum by TopSpin. Before generating report, you have to process your spectrum manually. Especially, the peaks must be picked.
+The script to generate report:
+1."apl": To generate the graphic report for current spectrum (1H or 13C).
+2."apl_dir": To generate the graphic reports for all 1H/13C spcetrum in current directory.
+3."str": To generate the string report for current spectrum (1H or 13C).
+4."str_dir": To generate the string reports for all 1H/13C spcetrum in current directory.
+5."arp": To generate both string reports and graphic report for all 1H/13C spcetrum in current directory.
 
-Enter "apl" on command line, the graphic report will be generated on the directory where your spectrum is.
+To run script above, just input script name on command line, and Enter. Before running scrupts, you have to mark the integrations and peaks for your spectrums manually. 
 
-Furthermore, you can enter "apl_dir" to generate all 1H and 13C spectrum on current directory automatically, it may take some time, don't close TopSpin until the software tell you "apl_dir.py: finished" on right-bottom.
-
-Currently, this project support 1H and 13C spectrum. Scripts are writen and tested under Python3.6 (It should be work on other Python3 version), and run under TopSpin3.5 and 4.0 (It should be work on other version). For any question about the scripts, please feel free to let me know :)
+My script was tested under TopSpin 4.0 (It should be work on other version). For any question about the scripts, please feel free to let me know :)
